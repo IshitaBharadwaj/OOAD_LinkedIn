@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30.4.2020, 10.00.24
+    Author     : piaandersin
+*/
+
+html {
+	height:100%;
+}
+
+#content {
+	text-align: center;
+	padding-top:25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#img-profile {
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+th {
+	color: #777;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+table {
+	width: 100%;
+  }
+
+tbody > tr:nth-child(-n+4) {
+	color: rgb(31, 99, 138);
+	font-weight: bold;
+  }
+
+#alter-profile-button {
+
+	margin-bottom: 20px;
+}
+
+#personal-post {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 1.15em;
+
+}
+
+.profile-block {
+	background-color: white;
+	color: #777;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+h3.profile-block{
+	position: relative;
+}
+
+#profile-header{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#profile-button {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.posting {
+	font-size: 1.5em;
+}
+
+.comment-form {
+	margin-top: 15px;
+}
+
+.mssg-content {
+	display: table-cell;
+}
+
+.mssg-button {
+	float:right;
+	display: table-cell;
+	margin-left: 20px;
+}
+
+.mssg-base {
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 40px;
+	background-color: white;
+	color: #777;
+	border-radius: 5px;
+}
+
+.mssg-posting {
+	border-bottom: 1px solid #bbb;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	display: table;
+	width: 100%;
+}
+
+.mssg-header {
+	margin: -10px -10px 10px -10px;
+	padding: 10px;
+	background-color: rgba(150, 150, 150, 0.856);
+	color: white;
+	font-size: 1.25em;
+}
+
+.likes {
+	float: right;
+}
+
+.comment-base {
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.change-picture-btn {
+
+	margin: 10px;
+}
+
+textarea.form-control {
+	margin-bottom: 1em;
+}
+
+body {
+	background: url("../images/selfie_hog.jpg"); 
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color:white;
+}
+
+body.profile {
+	background-color: #CFD1D3;
+	background: #CFD1D3;
+}
+
+#signup.container {
+	background-color: #f8f8f8;
+	padding: 15px;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 5px;
+	color: grey;
+}
+
+#search-bar {
+	position: relative;
+    display: block;
+	padding: 15px;
+}
+
+#logout-button {
+	border: none;
+	color: #777;
+	background-color: transparent;
+	position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
+.hideable {
+	display: none;
+}
+
+input {
+	color: black;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom:1px solid rgba(0,0,0,.2);
+}
